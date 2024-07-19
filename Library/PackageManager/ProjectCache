@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638441306026443738
-    m_Hash: 4145335610
+      ticks: 638569986089293347
+    m_Hash: 1919149442
   m_LockFileStatus:
     m_FilePath: C:/Users/proti/Desktop/Mobile Computing Merge/MobileMerge/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638441306026518339
-    m_Hash: 2973550412
+      ticks: 638569986089416083
+    m_Hash: 1285861617
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -54,9 +54,11 @@ m_ResolvedPackages:
     - 1.1.2
     - 1.2.0
     - 1.2.1
+    - 1.3.1
     compatible:
     - 1.2.0
     - 1.2.1
+    - 1.3.1
     recommended: 
     deprecated: []
   dependencies:
@@ -331,8 +333,12 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
+    - 2.3.1
+    - 2.4.3
     compatible:
     - 2.2.0
+    - 2.3.1
+    - 2.4.3
     recommended: 2.2.0
     deprecated: []
   dependencies: []
@@ -372,6 +378,66 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 2.2.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.device-simulator.devices@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\PackageCache\com.unity.device-simulator.devices@1.0.0
+  assetPath: Packages/com.unity.device-simulator.devices
+  name: com.unity.device-simulator.devices
+  displayName: Device Simulator Devices
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: This package contains additional devices for the Device Simulator.
+    Each device has a complete device definition and includes a device overlay. After
+    you install this package, the additional devices are immediately available in
+    the Device Simulator.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.4
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637810555200000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.device-simulator.devices.git
+    revision: 2e1ffaaea0624daf91ee6c76906fd119dbd584c6
+    path: 
+  unityLifecycle:
+    version: 1.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -512,9 +578,13 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     - 3.0.27
+    - 3.0.28
+    - 3.0.31
     compatible:
     - 3.0.27
-    recommended: 3.0.27
+    - 3.0.28
+    - 3.0.31
+    recommended: 3.0.31
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -777,6 +847,9 @@ m_ResolvedPackages:
     - 1.5.0-pre.4
     - 1.5.0-pre.5
     - 1.5.0-pre.6
+    - 1.5.0-pre.7
+    - 1.5.1
+    - 1.5.2
     compatible:
     - 1.4.4
     - 1.4.5
@@ -785,6 +858,9 @@ m_ResolvedPackages:
     - 1.5.0-pre.4
     - 1.5.0-pre.5
     - 1.5.0-pre.6
+    - 1.5.0-pre.7
+    - 1.5.1
+    - 1.5.2
     recommended: 1.4.5
     deprecated: []
   dependencies:
@@ -906,6 +982,7 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -925,6 +1002,7 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1095,6 +1173,7 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.0.7
     - 3.0.8
+    - 3.0.9
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -1104,12 +1183,14 @@ m_ResolvedPackages:
     - 3.2.0-pre.7
     - 3.2.0-pre.8
     - 3.2.0-pre.9
+    - 3.2.0-pre.10
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.0.7
     - 3.0.8
+    - 3.0.9
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -1119,9 +1200,10 @@ m_ResolvedPackages:
     - 3.2.0-pre.7
     - 3.2.0-pre.8
     - 3.2.0-pre.9
+    - 3.2.0-pre.10
     - 4.0.0-pre.1
     - 4.0.0-pre.2
-    recommended: 3.0.8
+    recommended: 3.0.9
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -1271,6 +1353,7 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.5
     - 1.8.6
+    - 1.8.7
     compatible:
     - 1.7.6
     - 1.8.0
@@ -1280,6 +1363,7 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.5
     - 1.8.6
+    - 1.8.7
     recommended: 1.7.6
     deprecated: []
   dependencies:
@@ -1358,6 +1442,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -1453,9 +1538,13 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.9.0
     - 1.9.1
+    - 1.9.2
+    - 1.9.4
     compatible:
     - 1.9.1
-    recommended: 1.9.1
+    - 1.9.2
+    - 1.9.4
+    recommended: 1.9.4
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -3612,14 +3701,20 @@ m_ResolvedPackages:
     - 1.21.18
     - 1.21.19
     - 1.21.20
+    - 1.21.21
+    - 1.22.2
     - 2.0.3
     - 2.0.4
     - 2.0.6
     - 2.0.8
+    - 2.1.0
+    - 2.2.2
     compatible:
     - 1.21.19
     - 1.21.20
-    recommended: 1.21.20
+    - 1.21.21
+    - 1.22.2
+    recommended: 1.21.21
     deprecated: []
   dependencies:
   - name: com.unity.scriptablebuildpipeline
@@ -3798,9 +3893,13 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.3.2
     - 1.4.0
+    - 1.4.1
+    - 1.4.2
     compatible:
     - 1.4.0
-    recommended: 1.4.0
+    - 1.4.1
+    - 1.4.2
+    recommended: 1.4.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4021,6 +4120,7 @@ m_ResolvedPackages:
     - 5.0.0
     - 5.0.1
     - 5.0.2
+    - 5.1.0
     compatible:
     - 4.0.1
     - 5.0.0-pre.1
@@ -4030,6 +4130,7 @@ m_ResolvedPackages:
     - 5.0.0
     - 5.0.1
     - 5.0.2
+    - 5.1.0
     recommended: 4.0.1
     deprecated: []
   dependencies:
@@ -4167,18 +4268,26 @@ m_ResolvedPackages:
     - 1.21.20
     - 1.21.21
     - 1.21.22
+    - 1.21.23
+    - 1.21.24
     - 2.0.1
     - 2.0.2
     - 2.1.0
     - 2.1.2
+    - 2.1.3
+    - 2.1.4
     compatible:
     - 1.21.21
     - 1.21.22
+    - 1.21.23
+    - 1.21.24
     - 2.0.1
     - 2.0.2
     - 2.1.0
     - 2.1.2
-    recommended: 1.21.22
+    - 2.1.3
+    - 2.1.4
+    recommended: 1.21.24
     deprecated: []
   dependencies: []
   resolvedDependencies: []

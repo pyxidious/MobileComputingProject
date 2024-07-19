@@ -24,87 +24,68 @@ namespace PoliceChase
         [Tooltip("Il nome della macchina")]
         public string nomecar;
 
-        [Tooltip("The health of the player. If this reaches 0, the player dies")]
         public float health = 10;
         internal float healthMax;
 
         internal Transform healthBar;
         internal Image healthBarFill;
 
-        [Tooltip("When the car gets hit and hurt, there is a delay during which it cannot be hit again")]
         public float hurtDelay = 3;
         internal float hurtDelayCount = 0;
 
-        [Tooltip("The color in which the car flashes when hurt")]
         public Color hurtFlashColor = new Color(0.5f, 0.5f, 0.5f, 1);
 
-        [Tooltip("The speed of the player, how fast it moves player. The player moves forward constantly")]
         public float speed = 10;
         internal float speedMultiplier = 1;
 
-        [Tooltip("How quickly the player car rotates, in both directions")]
         public float rotateSpeed = 200;
         internal float currentRotation = 0;
 
-        [Tooltip("The damage this car causes when hitting other cars. Damage is reduced from Health.")]
         public int damage = 1;
 
-        [Tooltip("The effect that appears when this car is hit by another car")]
         public Transform hitEffect;
 
-        [Tooltip("The effect that appears when this car dies")]
         public Transform deathEffect;
 
-        [Tooltip("The slight extra rotation that happens to the car as it turns, giving a drifting effect")]
         public float driftAngle = 50;
 
-        [Tooltip("The slight side tilt that happens to the car chassis as the car turns, making it lean inwards or outwards from the center of rotation")]
         public float leanAngle = 10;
 
-        [Tooltip("How quickly the chassis returns to its straight angle after we stop turning")]
         public float leanReturnSpeed = 5;
 
-        [Tooltip("The chassis object of the car which leans when the car rotates")]
         public Transform chassis;
 
-        [Tooltip("The wheels of the car which rotate based on the speed of the car. The front wheels also rotate in the direction the car is turning")]
         public Transform[] wheels;
 
-        [Tooltip("The front wheels of the car also rotate in the direction the car is turning")]
         public int frontWheels = 2;
 
         internal int index;
 
-        [Header("AI Car Attributes")]
-        [Tooltip("A random value that is added to the base speed of the AI car, to make their movements more varied")]
+
         public float speedVariation = 2;
 
         // The angle range that AI cars try to chase the player at. So for example if 0 they will target the player exactly, while at 30 angle they stop rotating when they are at a 30 angle relative to the player
         internal float chaseAngle;
 
-        [Tooltip("A random value that is to the chase angle to make the AI cars more varied in how to chase the player")]
         public Vector2 chaseAngleRange = new Vector2(0, 30);
 
-        [Tooltip("Make AI cars try to avoid obstacles. Obstacle are objects that have the ECCObstacle component attached to them")]
         public bool avoidObstacles = true;
 
-        [Tooltip("The width of the obstacle detection area for this AI car")]
         public float detectAngle = 2;
 
-        [Tooltip("The forward distance of the obstacle detection area for this AI car")]
         public float detectDistance = 3;
 
         //internal float obstacleDetected = 0;
 
-        [Tooltip("Allow this AI car to chase oher cars ( not just he player)")]
         public bool chaseOtherCars = true;
         
-        [Tooltip("The chance for this AI car to chanage a target to chase other cars ( if chaseOtherCars is true )")]
         public float changeTargetChance = 0.01f;
         private GameObject carFlashObject;
         private GameObject policeFlash;
         private GameObject macchinaBlu;
         private GameObject macchinaBianca;
+        private GameObject pickup;
+        private GameObject camioncino;
         private int carType;
         private ObjectManager objectManager;
         public AudioClip explodeSound;
@@ -133,6 +114,9 @@ namespace PoliceChase
                 carFlashObject = transform.Find("Vehicle_Car_Flash").gameObject;
                 macchinaBianca = transform.Find("MacchinaBianca").gameObject;
                 macchinaBlu = transform.Find("MacchinaBlu").gameObject;
+                pickup = transform.Find("Pickup").gameObject;
+                camioncino = transform.Find("Camioncino").gameObject;
+                
 
                 //Caso della macchina di Bill
                 if (ObjectManager.instance.nomeMacchina == "Bill's Car")
@@ -140,6 +124,8 @@ namespace PoliceChase
                     carType = 0;
                     macchinaBianca.GetComponent<MeshRenderer>().enabled = true;
                     macchinaBlu.GetComponent<MeshRenderer>().enabled = false;
+                    pickup.GetComponent<MeshRenderer>().enabled = false;
+                    camioncino.GetComponent<MeshRenderer>().enabled = false;
                 }
                 //Caso della macchina di Pablo
                 if (ObjectManager.instance.nomeMacchina == "Pablo's Car")
@@ -147,6 +133,26 @@ namespace PoliceChase
                     carType = 1;
                     macchinaBianca.GetComponent<MeshRenderer>().enabled = false;
                     macchinaBlu.GetComponent<MeshRenderer>().enabled = true;
+                    pickup.GetComponent<MeshRenderer>().enabled = false;
+                    camioncino.GetComponent<MeshRenderer>().enabled = false;
+                }
+                //Pikcup
+                if (ObjectManager.instance.nomeMacchina == "Pickup")
+                {
+                    carType = 2;
+                    macchinaBianca.GetComponent<MeshRenderer>().enabled = false;
+                    macchinaBlu.GetComponent<MeshRenderer>().enabled = false;
+                    pickup.GetComponent<MeshRenderer>().enabled = true;
+                    camioncino.GetComponent<MeshRenderer>().enabled = false;
+                }
+                //Camioncino
+                if (ObjectManager.instance.nomeMacchina == "Camioncino")
+                {
+                    carType = 3;
+                    macchinaBianca.GetComponent<MeshRenderer>().enabled = false;
+                    macchinaBlu.GetComponent<MeshRenderer>().enabled = false;
+                    pickup.GetComponent<MeshRenderer>().enabled = false;
+                    camioncino.GetComponent<MeshRenderer>().enabled = true;
                 }
             }
 

@@ -24,7 +24,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\PlayFab.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Google.Android.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Samsung.Android.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.Notifications.Android.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.Notifications.iOS.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.Notifications.Unified.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.Profiling.Core.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\proti\\Mobile Final\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\proti\\Mobile Final\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\proti\\Mobile Final\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\proti\\Mobile Final\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\PlayFab.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Google.Android.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Samsung.Android.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.Addressables.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.InternalAPIEngineBridge.013.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.Localization.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.Notifications.Android.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.Notifications.iOS.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.Notifications.Unified.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.Profiling.Core.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.ResourceManager.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.ScriptableBuildPipeline.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\Newtonsoft.Json.dll\" -a=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\" -s=\"C:\\Users\\proti\\Desktop\\Mobile Computing Merge\\MobileMerge\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -33,10 +33,15 @@
         "Library/ScriptAssemblies/Unity.AdaptivePerformance.dll",
         "Library/ScriptAssemblies/Unity.AdaptivePerformance.Google.Android.dll",
         "Library/ScriptAssemblies/Unity.AdaptivePerformance.Samsung.Android.dll",
+        "Library/ScriptAssemblies/Unity.Addressables.dll",
+        "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.013.dll",
+        "Library/ScriptAssemblies/Unity.Localization.dll",
         "Library/ScriptAssemblies/Unity.Notifications.Android.dll",
         "Library/ScriptAssemblies/Unity.Notifications.iOS.dll",
         "Library/ScriptAssemblies/Unity.Notifications.Unified.dll",
         "Library/ScriptAssemblies/Unity.Profiling.Core.dll",
+        "Library/ScriptAssemblies/Unity.ResourceManager.dll",
+        "Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -45,6 +50,7 @@
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
       "Outputs": [
@@ -188,6 +194,9 @@
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
     },
     {
+      "File": "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
+    },
+    {
       "File": "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
     },
     {
@@ -206,6 +215,15 @@
       "File": "Library/ScriptAssemblies/Unity.AdaptivePerformance.Samsung.Android.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.Addressables.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.013.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Localization.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.Notifications.Android.dll"
     },
     {
@@ -216,6 +234,12 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Profiling.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ResourceManager.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
@@ -271,6 +295,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1300b0aESkipCompile.dag.json",
-  "PayloadsFile": "C:/Users/proti/Mobile Final/Library/Bee/1300b0aESkipCompile.dag.payloads",
+  "PayloadsFile": "C:/Users/proti/Desktop/Mobile Computing Merge/MobileMerge/Library/Bee/1300b0aESkipCompile.dag.payloads",
   "RelativePathToRoot": "../.."
 }

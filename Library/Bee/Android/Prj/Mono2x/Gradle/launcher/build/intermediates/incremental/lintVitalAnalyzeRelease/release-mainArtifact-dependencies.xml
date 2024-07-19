@@ -1,21 +1,21 @@
 <dependencies>
   <compile
-      roots="C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+      roots="C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
     <dependency
-        name="C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        name="C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
         simpleName="Gradle:unityLibrary"/>
   </compile>
   <package
-      roots="C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar,__local_aars__:C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:mobilenotifications.androidlib::release">
+      roots="C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar,__local_aars__:C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:mobilenotifications.androidlib::release">
     <dependency
-        name="C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        name="C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
         simpleName="Gradle:unityLibrary"/>
     <dependency
-        name="__local_aars__:C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar"/>
+        name="__local_aars__:C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar"/>
     <dependency
-        name="__local_aars__:C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+        name="__local_aars__:C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
     <dependency
-        name="C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:mobilenotifications.androidlib::release"
+        name="C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:mobilenotifications.androidlib::release"
         simpleName="Gradle.unityLibrary:mobilenotifications.androidlib"/>
   </package>
 </dependencies>

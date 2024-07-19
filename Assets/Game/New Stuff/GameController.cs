@@ -1,15 +1,11 @@
-﻿using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using EndlessCarChase.Types;
 
 namespace PoliceChase
 {
-	/// <summary>
-	/// This script controls the game, starting it, following game progress, and finishing it with game over or victory.
-	/// </summary>
 	public class GameController : MonoBehaviour
 	{
         [Tooltip("The camera object and the camera holder that contains it and follows the player")]
@@ -52,6 +48,8 @@ namespace PoliceChase
         
         [Tooltip("The player prefs record of the total score we have ( not high score, but total score we collected in all games which is used as money )")]
         public string moneyPlayerPrefs = "Money";
+
+        public Text moneyText;
 
         internal int highScore = 0;
 		internal int scoreMultiplier = 1;
@@ -116,8 +114,7 @@ namespace PoliceChase
 		void Start()
 		{
             Player_Spawnpoint = GameObject.Find("Player_Spawnpoint");
-            //Application.targetFrameRate = 30;
-            canvasGameOver = GameObject.Find("CanvasGameOver");
+            Application.targetFrameRate = 120;
             gameOverAnimation = canvasGameOver.GetComponent<Animation>();
             // Update the score at 0
             ChangeScore(0);
@@ -172,6 +169,9 @@ namespace PoliceChase
 		{
             // If the game hasn't started yet, nothing happens
             if ( gameStarted == false) return;
+
+            int moneyValue = PlayerPrefs.GetInt("PlayerMoney", 0); // Legge il valore, 0 è il valore di default se la chiave non esiste
+            moneyText.text = moneyValue.ToString();
 
 			// Delay the start of the game
 			if ( startDelay > 0 )
@@ -396,32 +396,19 @@ namespace PoliceChase
             //Show the game over screen
             if ( canvasGameOver )    
 			{
-                Debug.Log("Dentro gameover canvas");
-				//Show the game over screen
-				canvasGameOver.SetActive(true);
+                GameOver gameOverComponent = canvasGameOver.GetComponent<GameOver>();
+                if (gameOverComponent != null) {
+                    gameOverComponent.SetUp(this.score);
+                    gameOverComponent.SetHighscore(this.highScore);
+                } else {
+                    Debug.LogError("No GameOver component found on the canvasGameOver GameObject.");
+                }
 				
-				//Write the score text
-                
-				canvasGameOver.transform.Find("Base/TextScore").GetComponent<Text>().text = "SCORE " + score.ToString();
-				
-				//Check if we got a high score
 				if ( score > highScore )    
 				{
 					highScore = score;
-					
-					//Register the new high score
-					PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "HighScore", score);
-				}
-				
-				//Write the high sscore text
-				canvasGameOver.transform.Find("Base/TextHighScore").GetComponent<Text>().text = "HIGH SCORE " + highScore.ToString();
 
-				//If there is a source and a sound, play it from the source
-				if ( soundSource && soundGameOver )    
-				{
-					soundSource.GetComponent<AudioSource>().pitch = 1;
-					
-					soundSource.GetComponent<AudioSource>().PlayOneShot(soundGameOver);
+					PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "HighScore", score);
 				}
 			}
 		}

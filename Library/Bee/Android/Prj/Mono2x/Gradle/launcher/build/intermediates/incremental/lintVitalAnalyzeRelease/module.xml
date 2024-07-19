@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="C:\Users\proti\Mobile Final\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
+    dir="C:\Users\proti\Desktop\Mobile Computing Merge\MobileMerge\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
     name=":launcher"
     type="APP"
     maven="Gradle:launcher:"

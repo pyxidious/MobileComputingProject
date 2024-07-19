@@ -8,6 +8,14 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"picker_window_position_offset.45F317DD" = "93;401;320;550"
+	"picker_search_text.45F317DD" = "erase "
+	"last_search.45F317DD" = "erase "
+	"OpenInspectorPreview.45F317DD" = "0"
+	"currentGroup.45F317DD" = "all"
+	"last_search.E8DA1663" = "erase"
+	"OpenInspectorPreview.E8DA1663" = "0"
+	"currentGroup.E8DA1663" = "all"
 }
 providers = {
 	packages = {
@@ -55,10 +63,23 @@ providers = {
 		priority = 25
 		defaultAction = null
 	}
+	st = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	at = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
 }
 objectSelectors = {
 }
 recentSearches = [
+	"re"
+	""
+	"sc"
 ]
 searchItemFavorites = [
 ]
